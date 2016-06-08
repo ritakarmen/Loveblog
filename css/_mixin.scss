@@ -1,0 +1,22 @@
+@mixin transn($a, $b){
+	transition: all $a ease $b;
+	-moz-transition: $a ease $b;
+    -webkit-transition: $a ease $b;
+    -o-transition: $a ease $b;
+    -ms-transition: $a ease $b;
+}
+
+@mixin img_medida{
+	display: block;
+    height: 75px;
+    left: -85px;
+    position: absolute;
+    width: 75px;
+}
+
+@mixin estilo{
+    font-weight:normal;
+    margin:0 0 15px;
+    font-family: bebasregular;
+}
+

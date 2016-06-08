@@ -1,0 +1,25 @@
+/*footer*/
+.footer {
+    background: none repeat scroll 0 0 $naranjaclaro;
+    margin: 0 auto;
+    padding: 20px 0;
+    ;@include transn(1.3s,0s);
+
+}
+.bloqrosa {
+    background: $naranjasuperclaro;
+    height: 400px;
+}
+.rosaoscuro {
+	background: $naranjaclaro;
+	color: white;
+    height: 400px;
+    padding-top:20px;
+}
+.social_area a{
+ color:$naranjaclaro;
+}
+.rosaoscuro h2 {
+    font-family: bebasregular;
+    font-weight: bold;
+}
